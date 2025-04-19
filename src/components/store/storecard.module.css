@@ -1,0 +1,41 @@
+.storeCard {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 260px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+.storeCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+.iconWrapper {
+  background-color: #eaf5ea;
+  padding: 16px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  color: #2e9a25;
+}
+.storeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.storeName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+.storeLocation {
+  color: #555;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

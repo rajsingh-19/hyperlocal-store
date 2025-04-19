@@ -1,0 +1,8 @@
+.cartPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+    background-color: #F2F2F3;
+}

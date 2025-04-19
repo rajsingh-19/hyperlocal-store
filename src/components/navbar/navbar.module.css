@@ -1,0 +1,25 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: #FFFFFF;
+    padding: 0px 70px;
+}
+.navbarContainer > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navbarContainer > button:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: 800;
+    color: #008285;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

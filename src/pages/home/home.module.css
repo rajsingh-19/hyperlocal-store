@@ -1,0 +1,41 @@
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+    background-color: #F2F2F3;
+}
+.citiesContainer {
+    width: 100%;
+    background-color: #dbdbdd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 40px;
+}
+.citiesBtn {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 15px;
+    cursor: pointer;
+    color: rgb(19, 52, 19);
+}
+.citiesBtn:hover {
+    color: rgb(92, 124, 124);
+}
+.activeCity {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+}
+.storesContainer {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 40px 80px;
+}
