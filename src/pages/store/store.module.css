@@ -1,14 +1,36 @@
 .storePageContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 70px;
-    width: 100%;
-    background-color: #F2F2F3;
-}
-
-/* .storePageContainer > p:nth-of-type(2) {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-} */
+    background-color: #F2F2F3;
+    margin-top: 70px;
+}
+.storeListContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+    padding: 20px 160px;
+    margin-bottom: 10px;
+}
+.searchInput {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 50px auto 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+.cartBtn {
+    margin: 10px auto 50px;
+    background-color: #008285;
+    color: #ffffff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    font-size: 20px;
+}

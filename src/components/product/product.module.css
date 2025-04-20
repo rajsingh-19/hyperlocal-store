@@ -1,0 +1,67 @@
+.productCard {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease;
+  width: 250px;
+  height: 200px;
+}
+.productCard:hover {
+  transform: translateY(-4px);
+}
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cardHeader > h3 {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+.available {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: #333;
+}
+.cardDetails > p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardDetails svg {
+  margin-right: 4px;
+}
+.cartButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+  transition: background 0.3s ease;
+}
+.cartButton:hover {
+  background-color: #0056b3;
+}
+.cartButton:disabled {
+  background-color: #28a745 !important;
+  color: white;
+  cursor: not-allowed;
+}

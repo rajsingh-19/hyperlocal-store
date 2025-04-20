@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbarContainer}>
             <button onClick={goToHome}>Hyperlocal Store&nbsp;<FaStore /></button>
-            <button onClick={goToCart}><FaShoppingCart size={18} /></button>
+            <button onClick={goToCart}>Cart<FaShoppingCart size={18} /></button>
         </div>
     )
 }

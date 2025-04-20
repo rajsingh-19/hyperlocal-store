@@ -29,3 +29,11 @@ export const getAllProducts = (id) => {
   });
 };
 
+//      place Order
+export const placeOrder = (orderData) => {
+  return axios.post(`${apiURL}orders/createorder`, orderData, {
+    headers: {
+      "Content-Type": "application/json",
+    }
+  });
+};

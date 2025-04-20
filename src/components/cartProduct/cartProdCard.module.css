@@ -1,0 +1,51 @@
+.card {
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 400px;
+}
+.info {
+  margin-bottom: 1rem;
+}
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+.price,
+.store {
+  color: #555;
+  margin-top: 4px;
+}
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.qtyBtn {
+  background-color: #2e9a25;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.qtyBtn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.qtyDisplay {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.limitMsg {
+  margin-top: 0.5rem;
+  color: red;
+  font-size: 0.9rem;
+}

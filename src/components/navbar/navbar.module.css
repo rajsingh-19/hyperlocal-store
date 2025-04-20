@@ -23,3 +23,13 @@
     flex-direction: row;
     align-items: center;
 }
+.navbarContainer > button:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbarContainer > button:nth-of-type(2) svg {
+    margin-left: 2px;
+}
