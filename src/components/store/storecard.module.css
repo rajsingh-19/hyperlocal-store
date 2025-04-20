@@ -39,3 +39,14 @@
   align-items: center;
   gap: 6px;
 }
+/*          responsiveness       */
+@media screen and (max-width: 375px) {
+  .storeCard {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .storeCard {
+    width: 260px;
+  }
+}
