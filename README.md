@@ -1,12 +1,43 @@
-# React + Vite
+# Hyperlocal Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup Instructions
 
-Currently, two official plugins are available:
+### Prerequisites
+  Node.js (v16+ recommended)
+  npm or yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+    Clone the repository:
+    git clone <repository-url>
+    cd link-management-app
 
-## Expanding the ESLint configuration
+### Install dependencies:
+    npm install
+    ### or
+    yarn install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Start the development server:
+    npm run dev
+    ### or
+    yarn dev
+
+### Open the application in your browser at http://localhost:5173/ (default Vite port).
+
+
+## About
+A full-stack Hyperlocal Store web app to browse nearby stores, view products, add to cart, and place orders easily.
+Built with React, Node.js, Express, and MongoDB for a seamless local shopping experience.
+
+## Tech Stack
+    React.js
+    React Router
+    Context API for cart state management
+    CSS Modules for styling
+    Axios or fetch for API calls
+
+## Features
+    Add products to cart
+    Change product quantity
+    Place an order with name
+    Order confirmation screen
+    Clears cart after order placed
