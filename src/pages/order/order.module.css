@@ -33,3 +33,9 @@
 .orderPageContainer button:hover {
   background-color: #24861d;
 }
+/*          responsiveness       */
+@media screen and (max-width: 426px) {
+  .orderPageContainer {
+    padding: 40px;
+  }
+}

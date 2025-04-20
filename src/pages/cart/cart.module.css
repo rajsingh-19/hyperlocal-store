@@ -66,3 +66,17 @@
   margin-top: 20px;
   align-self: flex-end;
 }
+/*          responsiveness       */
+@media screen and (max-width: 426px) {
+  .cartProdListContainer {
+    width: 100%;
+  }
+  .nameContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 376px) {
+  .nameInput {
+    padding: 12px 5px;
+  }
+}
